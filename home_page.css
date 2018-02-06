@@ -1,0 +1,14 @@
+#navBar {
+	margin: auto;
+	width: 80%;
+}
+
+.navBarTab {
+	float: left;
+	text-align: center;
+	width: 25%;
+}
+
+a:hover {
+	color: red;
+}
