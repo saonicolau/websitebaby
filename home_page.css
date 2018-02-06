@@ -1,3 +1,16 @@
+
+div a {
+	text-decoration: none;
+}
+
+div a:hover {
+	color: red;
+}
+
+div a:visited {
+	color: black;
+}
+
 #navBar {
 	margin: auto;
 	width: 80%;
@@ -9,6 +22,6 @@
 	width: 25%;
 }
 
-a:hover {
-	color: red;
+p {
+	clear: both;
 }
