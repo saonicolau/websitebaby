@@ -1,4 +1,4 @@
-#about, #bodyContentAbout {
+#about, #bodyContainerAbout {
 	background-color: #f7786b;
 }
 
@@ -16,18 +16,22 @@ body {
 	padding: 0;
 }
 
-.bodyContent {
+.bodyContainer, #languageList {
+    height: auto !important;
+    height: 600px;
+    min-height: 600px;
 	padding-bottom: 50px;
-	padding-left: 50px;
 	padding-top: 50px;
 }
 
-.bodyContent, .navBar {
-	width: 80%;
+.bodyContent {
+	background-color: white;
+	margin: 40px;
+	padding: 20px;
 }
 
-#contact, #bodyContentContact {
-	background-color: #e0e2e4;
+#contact, #bodyContainerContact {
+	background-color: #92a8d1;
 }
 
 #contact a:hover {
@@ -41,6 +45,7 @@ div a {
 
 div a:hover {
 	color: red;
+	font-weight: bold;
 }
 
 div a:visited {
@@ -51,12 +56,26 @@ h1 {
 	clear: both;
 }
 
-#illustration, #bodyContentIllustration {
+#illustration, #bodyContainerIllustration {
 	background-color: #ffcc5c;
 }
 
 #illustration a:hover {
 	color: white;
+}
+
+#languageList {
+	background-color: #e0e2e4;
+	float: right;
+ 	height: 100px;  
+ 	width: 20%;
+}
+
+#leftColumn {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 80%;
 }
 
 .navBar {
@@ -78,7 +97,7 @@ p {
 	clear: both;
 }
 
-#translation, #bodyContentTranslation {
+#translation, #bodyContainerTranslation {
 	background-color: #87bdd8;
 }
 
