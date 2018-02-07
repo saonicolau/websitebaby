@@ -1,5 +1,41 @@
+#about, #bodyContentAbout {
+	background-color: #f7786b;
+}
+
+#navBarAbout {
+	width: 100%;
+}
+
+#about a:hover {
+	color: white;
+}
+
+body {
+	font-family: "Verdana", "Geneva", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.bodyContent {
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+.bodyContent, .navBar {
+	width: 80%;
+}
+
+#contact, #bodyContentContact {
+	background-color: #e0e2e4;
+}
+
+#contact a:hover {
+	color: white;
+}
 
 div a {
+	color: black;
 	text-decoration: none;
 }
 
@@ -11,17 +47,41 @@ div a:visited {
 	color: black;
 }
 
-#navBar {
-	margin: auto;
-	width: 80%;
+h1 {
+	clear: both;
+}
+
+#illustration, #bodyContentIllustration {
+	background-color: #ffcc5c;
+}
+
+#illustration a:hover {
+	color: white;
+}
+
+.navBar {
+	margin-right: 0;
+	padding: 0;
 }
 
 .navBarTab {
 	float: left;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 	text-align: center;
 	width: 25%;
 }
 
 p {
 	clear: both;
+}
+
+#translation, #bodyContentTranslation {
+	background-color: #87bdd8;
+}
+
+#translation a:hover {
+	color: white;
 }
