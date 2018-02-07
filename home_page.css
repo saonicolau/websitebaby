@@ -1,5 +1,5 @@
 #about, #bodyContainerAbout {
-	background-color: #f7786b;
+	background-color: #92a8d1;
 }
 
 #navBarAbout {
@@ -31,7 +31,7 @@ body {
 }
 
 #contact, #bodyContainerContact {
-	background-color: #92a8d1;
+	background-color: #f7786b;
 }
 
 #contact a:hover {
@@ -57,7 +57,7 @@ h1 {
 }
 
 #illustration, #bodyContainerIllustration {
-	background-color: #ffcc5c;
+	background-color: #87bdd8;
 }
 
 #illustration a:hover {
@@ -98,7 +98,7 @@ p {
 }
 
 #translation, #bodyContainerTranslation {
-	background-color: #87bdd8;
+	background-color: #ffcc5c;
 }
 
 #translation a:hover {
